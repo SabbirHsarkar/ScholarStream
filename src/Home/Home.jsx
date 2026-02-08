@@ -16,10 +16,13 @@ const Home = () => {
     }, []);
     return (
     <>
-    <Banner></Banner>
+    <div className='bg-gradient-to-br from-[#0B0D17] via-[#1A1F3B] to-[#0B0D17]'>
+ <Banner></Banner>
     <TopScholarships></TopScholarships>
     <Testimonials></Testimonials>
     <Contact></Contact>
+    </div>
+   
     
     </>
      
